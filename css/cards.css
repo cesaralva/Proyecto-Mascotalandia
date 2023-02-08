@@ -41,7 +41,7 @@
     box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
     display: inline-block;
     padding: 6px 30px 8px;
-    position: relative;
+    /* position: relative; */
     text-decoration: none;
     transition: all 0.1s 0s ease-out;
   }
@@ -62,7 +62,7 @@
     margin: 8px;
     max-width: 300px;
     perspective: 1000;
-    position: relative;
+    /* position: relative; */
     text-align: left;
     transition: all 0.3s 0s ease-in;
     width: 300px;

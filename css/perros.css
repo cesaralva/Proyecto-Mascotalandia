@@ -1,0 +1,81 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  @font-face {
+    font-family: Lexend Deca;
+    src: url(./fonts/LexendDeca-Regular.ttf);
+  }
+
+  
+  header {
+    /* background-color: rgb(245, 245, 245); */
+    background-color: #ffffff01;
+  }
+  
+  header .logo {
+    margin: 0;
+    padding: 25px 30px 5px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+  }
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+  }
+  
+  header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #BA4400;
+  }
+  
+  header a:hover {
+    transition: all 0.3s ease 0s;
+    color: black;
+  }
+  @media (min-width: 768px) {
+    header {
+      position: fixed;
+      width: 100%;
+    }
+  
+    header .container {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  
+    header nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+      font-family: Lexend Deca, Arial, Helvetica, sans-serif;
+    }
+  }
+  
+  #container {
+    background-color: rgb(252, 250, 238);
+  }
+
+  .login-parrafo .login, h5{
+    padding-left: 960px;  
+      
+      
+    }
