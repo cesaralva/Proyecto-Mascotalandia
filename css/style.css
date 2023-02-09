@@ -151,6 +151,24 @@ padding-left: 960px;
 
 
 
+.social-red .social, h3{
+  margin: auto;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #BA4400;
+  
+}
+
+section .insta{
+  text-decoration: none;
+  color: #BA4400 ;
+}
+section .insta:hover{
+  color: #CCD7EB;
+}
+
 footer {
   background: #FCFAEE;
   width: 100%;
