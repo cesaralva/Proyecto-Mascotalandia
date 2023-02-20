@@ -1,0 +1,38 @@
+.tarjeta-hover {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.card {
+    width: 350px;
+    height: 200px;
+    /* background-color: #f5e237; */
+    border-radius: 10px;
+    transition: 300ms ease-in-out;
+    box-shadow: 0 5px 10px 0 #0a0a0a7c;
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.card + .card  {
+    margin-left: -10px;
+}
+
+.card:hover {
+    transform: rotate(-6deg);
+}
+
+.card:hover~.card {
+    z-index: 1;
+    translate: 60px;
+}

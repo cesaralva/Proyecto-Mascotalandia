@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff01;
+}
+
+header p {
+    display: flex;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #BA4400;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.gatobanner img {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 250;
+    margin: auto;
+}
+
+.navegacion-gato {
+    width: 90%;
+    margin: 30px auto;
+    background-color: #ec5802d0;
+
+}
+.navegacion-gato{
+    display: flex;
+    justify-content: center;
+}
+
+.navegacion-gato ul {
+    list-style: none;
+}
+
+
+.menu-gato>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-gato>li>a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(255, 239, 176);
+    text-decoration: none;
+}
+
+.menu-gato li a:hover {
+    color: rgb(255, 255, 255);
+    transition: all .3s;
+}
+
+.menu-alimento{
+    position: absolute;
+    background-color: rgb(153, 152, 152);
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.menu-alimento li a{
+    display: block;
+    padding: 15px;
+    color: rgb(255, 59, 59);
+    text-decoration: none;
+}
+.menu-gato li:hover .menu-alimento{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu-cuidadopersonal{
+    position: absolute;
+    background-color: rgb(153, 152, 152);
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.menu-cuidadopersonal li a{
+    display: block;
+    padding: 15px;
+    color: rgb(255, 59, 59);
+    text-decoration: none;
+}
+.menu-gato li:hover .menu-cuidadopersonal{
+    visibility: visible;
+    opacity: 1;
+}
+.menu-arenaylimpieza{
+    position: absolute;
+    background-color: rgb(153, 152, 152);
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.menu-arenaylimpieza li a{
+    display: block;
+    padding: 15px;
+    color: rgb(255, 59, 59);
+    text-decoration: none;
+}
+.menu-gato li:hover .menu-arenaylimpieza{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu-trasladarse{
+    position: absolute;
+    background-color: rgb(153, 152, 152);
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.menu-trasladarse li a{
+    display: block;
+    padding: 15px;
+    color: rgb(255, 59, 59);
+    text-decoration: none;
+}
+.menu-gato li:hover .menu-trasladarse{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu-accesorios{
+    position: absolute;
+    background-color: rgb(153, 152, 152);
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.menu-accesorios li a{
+    display: block;
+    padding: 15px;
+    color: rgb(255, 59, 59);
+    text-decoration: none;
+}
+.menu-gato li:hover .menu-accesorios{
+    visibility: visible;
+    opacity: 1;
+}

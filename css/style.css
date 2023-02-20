@@ -122,6 +122,8 @@ padding-left: 960px;
    justify-content: center;
    margin-top: 40px;
    
+   
+   
 
 
 }
@@ -143,6 +145,7 @@ padding-left: 960px;
     transition: 0.5s;
     object-fit: cover;
     box-shadow: 19px 10px 20px -3px rgba(0,0,0,0.1);
+    border-radius: 1rem;
 
 }
 .img-animal:hover{
@@ -267,18 +270,36 @@ li a {
   padding: 5px;
 }
 
+/* tarjeta de marcas */
 
 
 
+.other-cards {
+  display:flex;
+  width: 500px;
+  height: 430px;
+  margin:  0 auto;
+  margin-top: -50px;
+
+  margin-bottom: 50px;
+
+}
+.other-cards img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
 
 
+.other-cards img:hover{
+  cursor:crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
 
-
-
-
-
-
-
+}
 
 
 
